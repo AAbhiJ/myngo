@@ -1,0 +1,199 @@
+
+:root {
+  --blueish-dark: #123544;
+  --purple:#8D7BC0;
+}
+
+.bg-blueish-dark {
+  background-color: var(--blueish-dark);
+    color:white;
+}
+
+.text-bluish-dark{
+  color: var(--blueish-dark);
+}
+
+.radius-23px{
+  border-radius: 23px;
+}
+
+/* navbar */
+
+.navbar {
+  height: 6rem;
+}
+
+.navbar-nav {
+  column-gap: 2rem;
+}
+
+.object-fit {
+  object-fit: contain;
+}
+
+.bg-blueish-dark.btn:hover{
+  color:white;
+}
+
+/* .image-container > div {
+  position: unset !important;
+}
+
+.image-container .image {
+  object-fit: contain;
+  position: relative !important;
+  height: unset !important;
+  top: -45px!important;;
+} */
+
+.navbar .display-3{
+    bottom: -50px;
+}
+
+/* navbar End */
+
+/* Index */
+.mt-6{
+    margin-top: 6rem;
+}
+.bg-blueish-dark.btn {
+    width:15rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+
+/* Index End */
+
+/* registration */
+
+.form{
+  border: 1px solid var(--blueish-dark);
+  padding:2rem;
+  border-radius: 23px;
+  position: relative;
+  overflow: hidden;
+}
+
+.form .formHeading{
+  background-color: var(--blueish-dark);
+  color:white;
+  font-weight: bold;
+}
+.form .formHeading::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  background-color: var(--blueish-dark);
+  height: 5rem;
+  z-index: -1;
+}
+.form label{
+  align-self:flex-start;
+}
+
+
+.form input,
+.form textarea{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 6px;
+  padding-left: 1rem;
+  border:2px solid var(--blueish-dark);
+}
+
+.form #address{
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  resize: none;
+}
+
+button{
+  background-color: transparent;
+  border: 0;
+  padding:  0.6rem 1rem;
+  border-radius: 5px;
+}
+button.cancel:hover{
+  outline:1px solid var(--blueish-dark);
+}
+
+button.clear{
+  outline:1px solid var(--blueish-dark);
+}
+button.bgdark{
+  color:white;
+  background-color: var(--blueish-dark);
+}
+
+
+.terms ul{
+  list-style:decimal;
+}
+/* registration End */
+
+/* login */
+.login .row{
+  background-color: var(--blueish-dark);
+  color:white;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 23px;
+  border-bottom-right-radius: 250px;
+
+}
+.login .leftSide{
+  padding:3rem;
+
+}
+.login .leftSide::after{
+  content: '';
+  position: absolute;
+  inset:0;
+  background-color: var(--blueish-dark);
+  background-image: url(./../public/assets/images/logo.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  bottom:-4rem;
+  top:10rem;
+  background-position: center -30px;
+  opacity: 0.4;
+}
+
+.rightSide{
+  background-color: white;
+  border-top-left-radius: 250px;
+  border-bottom-right-radius: 250px; 
+}
+input.borderBottom{
+  border:0;
+  border-bottom: 1px solid var(--blueish-dark);
+
+}
+
+input.borderBottom:focus-visible{
+  border:0;
+  outline: 0;
+  border-bottom: 1px solid var(--blueish-dark);  
+}
+
+/* login End */
+
+/* requirement */
+
+.requirement .border.border-redish-dark{
+  border-color: var(--blueish-dark)!important;
+}
+
+/* requirement */
+
+
+.imgFit{
+  max-width: 100%!important;
+  min-height: auto!important;
+  height: auto!important;
+}
