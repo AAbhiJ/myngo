@@ -2,8 +2,6 @@ import axios from "axios";
 import Cookies from 'js-cookie';
 
 const baseURL = process.env.BASE_URL
-if(baseURL==="")
-baseURL = "http://localhost:3000"
 
 const axiosInstance = axios.create({
   baseURL: `${baseURL}/api`,
