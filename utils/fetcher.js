@@ -1,11 +1,13 @@
 import axios from "axios";
 import Cookies from 'js-cookie';
 
-const baseURL = process.env.BASE_URL
+//const base_URL = `${process.env.BASE_URL}/api`;
 
 const axiosInstance = axios.create({
-  baseURL: `${baseURL}/api`,
+  baseURL: "https://ngo-net.netlify.com/api",
 });
+//console.log("base url ",base_URL);
+
 
 // axiosInstance.interceptors.request.use(
 //   (config) => {
