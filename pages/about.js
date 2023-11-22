@@ -42,7 +42,7 @@ function about() {
             description="A captain is as good as his team. In marathi there is a saying that”व्यक्ती तितक्या प्रकृती”. Despite of having this it diffiult to get a team who strives really hard to see the mutual dream and own it. We saw a dream and extremely happy to announce that we are accomplishing it."
           />
         </div>
-        <div className="py-3">
+        {/* <div className="py-3">
           <h2 className="h2"> Our Strengths :</h2>
           <RightText
             image={college}
@@ -56,14 +56,14 @@ function about() {
             heading="Computer Enginnering Department"
             description="Seeing a dream is not enough. Every dream need a mentor, a guide and computer department has always the role. from helping us get a clear picture till helping us plan everything comp dept has played a very vital role."
           />
-          {/* <RightText
+          <RightText
             image={guide}
             alt="Project Guide"
             heading="Project Guide"
             description="We are fortunate in all angles of life. Firstly opportunity to do this project and the next an dmost important part to get a guide like Prof.Sameer Tathre sir. Very supportive and understanding in walks and stages of project. We are learning numerous things from him and willl continue to do so."
             imgSize={100}
-          /> */}
-        </div>
+          /> 
+        </div>*/}
       </div>
     </>
   );

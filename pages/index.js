@@ -67,7 +67,7 @@ const Home = () => {
           />
         </>
 
-        <div className="row">
+        {/* <div className="row">
           <ProcessCard
             image={college}
             heading="Gharda Institute of technology"
@@ -79,7 +79,7 @@ const Home = () => {
             description=""
           />
           <ProcessCard image={team} heading="Team Member" description="" />
-        </div>
+        </div> */}
 
         <div className="text-center">
           <h1 className="h5">Contact Us</h1>
