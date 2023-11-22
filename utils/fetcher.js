@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 //const base_URL = `${process.env.BASE_URL}/api`;
 
 const axiosInstance = axios.create({
-  baseURL: "https://ngo-net.vercel.com/api",
+  baseURL: "https://ngo-net.vercel.app/api",
 });
 
 //console.log("base url ",base_URL);
